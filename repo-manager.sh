@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USER="your-github-username"
-TEMPLATES=("template-python" "template-nodejs" "template-go")
+TEMPLATES=("template-assignment1-webui" "template-assignment1-webserver" "template-assignment1-androidapp")
 
 gh auth login --web || { echo "Auth failed"; exit 1; }
 
